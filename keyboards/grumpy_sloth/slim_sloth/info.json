@@ -3,17 +3,40 @@
     "keyboard_name": "Slim Sloth",
     "maintainer": "RonnyM82",
     "bootloader": "rp2040",
-    "debounce": 5,
     "diode_direction": "COL2ROW",
     "features": {
         "audio": false,
         "backlight": false,
         "bootmagic": true,
+        "extrakey": true,
         "command": false,
         "console": false,
         "mousekey": true,
-        "nkro": true,
-        "rgblight": true
+        "nkro": true
+    },
+    "rgblight": {
+        "led_count": 108,
+        "sleep": true,
+        "max_brightness": 125,
+        "brightness_steps": 25,
+        "hue_steps": 5,
+        "saturation_steps": 5,
+        "animations": {
+        "alternating": true,
+        "breathing": true,
+        "christmas": true,
+        "knight": true,
+        "rainbow_mood": true,
+        "rainbow_swirl": true,
+        "rgb_test": true,
+        "snake": true,
+        "static_gradient": true,
+        "twinkle": true
+        }
+    },
+    "ws2812": {
+        "pin": "GP19",
+        "driver": "vendor"
     },
     "matrix_pins": {
         "cols": ["GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP11", "GP12", "GP13", "GP14", "GP15", "GP16", "GP17", "GP18"],
@@ -26,6 +49,7 @@
         "pid": "0x0001",
         "vid": "0x6773"
     },
+    "community_layouts": ["fullsize_ansi"],
     "layouts": {
         "LAYOUT_fullsize_ansi": {
             "layout": [

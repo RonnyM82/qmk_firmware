@@ -1,7 +1,6 @@
 # Grumpy Sloth
 
-![grumpy_sloth](https://i.imgur.com/4MyNhtV.png)
-
+![grumpy_sloth](https://i.imgur.com/4MyNhtVh.png)
 
 ![Slim Sloth Keyboard](https://i.imgur.com/ymsQhI0h.jpg)
 
